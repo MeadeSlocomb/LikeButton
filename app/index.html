@@ -12,7 +12,7 @@
   <div class="container" ng-controller="LikeButtonController">
 
     <form ng-submit="addLike()">
-      <button>{{ likes }} Likes</button>
+      <button>{{ likes }} {{ likeText() }}</button>
     </form>
 
   </div>
