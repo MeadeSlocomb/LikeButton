@@ -1,17 +1,10 @@
-## Welcome to My Repo
+## Simple "Like" Button
 
 > This is a "Like" button that tracks the number of times the button has been clicked and displays that number on the button itself, as well as pluralizes "like"/"likes" appropriately.
 
 Objective: To familiarize myself with the basics of Angular.
 
+A deployed version of the app can be viewed here:
 
-## Usage
+http://development.meade-likebutton.divshot.io/
 
-This template contains some simple `gulp` tasks. They are as follows:
-
-
-- `gulp watch`: This will launch a Node Server and start the standard `watchlist` task
-- `gulp bower`: This will move the bower components into their proper location. This will run during the `watch` task, but you may need to run it manually once in a while
-- `gulp handlebars`: This will compile your handlebars (`.hbs`) files for you. Again, `watch` will watch for changes, but if you add new files, you'll need to run this or restart the `gulp watch` command.
-
-There are many more tasks, and you really should read through the `gulpfile.js`, but the ones above will take care of you in most cases.
